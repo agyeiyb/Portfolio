@@ -1,0 +1,272 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+a:active {
+color:white;
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/stars.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home { 
+  color:white;
+}
+.header {
+    background-image: url("images/stars.jpg");
+    min-height: 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 12% 0;
+
+}
+}
+.home {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*div {
+    display: block;
+}*/
+nav {
+  
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+nav #myLinks {
+  display: none;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+ 
+}
+ul #myLinks{
+  list-style-type: none;
+}
+nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+nav a.icon {
+  
+  display: block;
+  
+  
+}
+
+nav a:hover {
+  text-decoration: underline;
+
+}
+
+.active {
+  background-color: #4CAF50;
+
+}
+body {
+  
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+footer {
+  padding: 1% 0;
+  background-color: #443850;
+}
+
+.about{
+  color:white;
+  text-align: left;
+  padding-left: 20px
+}
+#portfolio .icon {
+  width: 55.5px;
+}
+
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #7e3c76;
+}
+
+section:nth-child(even) {
+  background-color: #F2F7F2;
+}
+a.button.learn-more{
+  color:white;
+  font-family: 'Roboto Slab', serif;;
+}
+a.button.learn-more:hover{
+  color:#7e3c76;
+}
+section#about.about{
+  padding:40px;
+}
+learn-more {
+    border-color: #fff;
+    width: 20%;
+    margin: 3.75em auto 0 auto;
+    font-size: 1em;
+    padding: 1.5em 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.button {
+    
+    text-transform: uppercase;
+    border: 2px solid white;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width:200px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top:10px;
+}
+.button:hover {
+  background-color: white;
+  color: #7e3c76;
+}
+.learn:active{
+  color:white;
+}
+a:visited {
+  color:white;
+}
+header.parallax.home{
+  margin:0;
+  
+}
+
+.card {
+  background-color: white;
+  width:492px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin:auto;
+  text-align: left;
+  
+}
+.card h3,p, img.icon{
+  padding-left:20px;
+}
+#portfolio img{
+  width: 492px;
+}
+
+ul#social-icons {
+  list-style: none;
+  margin:0;
+}
+
+ul#social-icons img{
+  width:40px;
+  
+}
+ul#social-icons li{
+  display: inline;
+}
+.about h2{
+   color:white;
+   font-family: 'Megrim', cursive;
+}
+.portfolio h2{
+
+   font-family: 'Megrim', cursive;
+}
+
+.contact h2{
+  color:white;
+   font-family: 'Megrim', cursive;
+}
+div.introText h2{
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+
+}
+div.introText h1{
+   font-family: 'Megrim', cursive;
+  
+
+}
+
+header.parallax.home{
+  padding-top:0;
+
+}
+h1,h2, {
+  font-family: 'Megrim', cursive;
+}
+h3, p, li{
+font-family: 'Roboto Slab', serif;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  nav #myLinks {
+  display: inline;
+  list-style-type: none;
+}
+nav a.icon {
+display:none;
+position: absolute;
+}
+div.introText h1 {
+font-family: 'Megrim', cursive;
+}
+h1,h2, {
+  font-family: 'Megrim', cursive;
+}
+h3, p, li{
+font-family: 'Roboto Slab', serif;
+}
+ul#myLinks li { 
+  display: inline-block; 
+}
+ 
+ nav {
+  overflow: hidden;
+  top:0;
+  position: absolute;
+}
+
+header.parallax.home{
+  padding-top:300px;
+
+}
+}
