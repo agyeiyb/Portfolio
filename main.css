@@ -269,7 +269,7 @@ header.parallax.home{
   padding-top:300px;
 
 }
- .portfolio.card{
+ section#portfolio.portfolio{
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
