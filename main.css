@@ -269,4 +269,11 @@ header.parallax.home{
   padding-top:300px;
 
 }
+  .card{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin-left: 0px;
+}
 }
