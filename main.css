@@ -287,7 +287,7 @@ header.parallax.home{
 
 }
  
- section#portfolio.portfolio.card{
+ section#portfolio.portfolio{
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
