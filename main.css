@@ -286,11 +286,18 @@ header.parallax.home{
   padding-top:300px;
 
 }
- section#portfolio.portfolio{
+  .card {
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
  justify-content: space-around;
  margin-left: 0px;
-}
+  }
+/* section#portfolio.portfolio{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin-left: 0px;
+}*/
 }
