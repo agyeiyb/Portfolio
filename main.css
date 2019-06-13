@@ -287,11 +287,11 @@ header.parallax.home{
 
 }
  
- section#portfolio.portfolio{
+ /*section#portfolio.portfolio{
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
  justify-content: space-around;
  margin-left: 0px;
-}
+}*/
 }
